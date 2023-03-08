@@ -32,8 +32,10 @@ const App = ()=>{
                </div>
               </div>
 
-              <div className='home_img'>
-      
+              <div className='home_img '>        
+               <p>&lt;dev /&gt;</p> 
+               <p>&lt;dev /&gt;</p>    
+               <p>&lt;dev /&gt;</p>            
               </div>
             
 
