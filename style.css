@@ -1,3 +1,55 @@
+            
 *{
-    background: green;
+    background:#001f3f;
 }
+.navbar{
+    display: flex;
+    flex-direction: row;
+    margin: 0 2rem;
+}
+
+.logo{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo img{
+    width:70px;
+    height: 70px;
+}
+.logo h3 {
+font-size: 30px;
+font-family: monospace;
+color: #B10DC9;
+font-weight: 800;
+margin-left: 1rem;
+}
+.links{
+    display: flex;
+    flex: 5;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+    font-size: 26px;
+}
+
+a {
+    text-decoration: none !important;
+    font-family: monospace;
+    font-weight: 800;
+    color: #B10DC9;
+    margin: 1rem;
+  }
+
+  @media screen and (max-width:700px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        margin: 0 2rem;
+    } 
+    
+  }
