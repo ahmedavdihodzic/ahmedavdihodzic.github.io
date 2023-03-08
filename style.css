@@ -1,4 +1,4 @@
-            
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 *{
     background:#001f3f;
 }
@@ -51,5 +51,45 @@ a {
         flex-direction: column;
         margin: 0 2rem;
     } 
-    
+    .links{
+        font-size: 14px;
+        justify-content: center;
+    }
+    .home{
+        display: flex;
+        flex-direction: column;
+      }
+  }
+
+  .home{
+    display: flex;
+    flex-direction: row;
+  }
+  .home_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+  }
+
+  .home_text h1{
+    color:#c62828;
+  }
+  .home_text p{
+    color:#c62828;
+  }
+  .home_text button{
+    color:#c62828;
+    padding:1rem;
+  }
+   .home_links{
+    margin:1rem 1rem;
+    }
+  .home_icons{
+    color:#00e676;
+    margin:1rem;
+  }
+  .myname{
+    color:#f57c00;
   }
