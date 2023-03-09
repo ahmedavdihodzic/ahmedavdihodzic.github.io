@@ -1,6 +1,11 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 *{
-    background:#001f3f;
+    background:#041122;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
 }
 .navbar{
     display: flex;
@@ -24,8 +29,7 @@
 .logo h3 {
 font-size: 16px;
 font-family: monospace;
-color: #c62828;
-font-weight: 800;
+color:  #e6f99d; 
 margin-left: 1rem;
 }
 .links{
@@ -37,7 +41,7 @@ margin-left: 1rem;
     font-size: 12px;
 }
 .links a{
-  color:#c62828;
+  color: #e6f99d; 
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-decoration: none;
   font-weight: 700;
@@ -79,17 +83,18 @@ margin-left: 1rem;
     justify-content: center;
     align-items: center;
     padding: 3rem;
+    margin: 1rem 1rem;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
   }
 
   .home_text h1{
-    color:#c62828;
+    color: #e6f99d; 
   }
   .home_text p{
-    color:#c62828;
+    color: #e6f99d; 
   }
   .home_text button{
-    color:#c62828;
+    color: #e6f99d; 
     padding:1rem;
   }
    .home_links{
@@ -103,19 +108,21 @@ margin-left: 1rem;
     color:#f57c00;
   }
   
-     .home_img{
+     .home_quotes{
      display: flex;
      flex-direction: column;
      flex: 3;
      justify-content: center;
      align-items: center;
+     margin:1rem 1rem;
+     padding:3rem;
      box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
    }
-   .home_img img{
-    width: 300px;
-    height: 300px;
-    box-shadow:white;
+   .home_quotes p , 
+   .home_quotes h3{
+    color: #e6f99d; 
    }
+ 
    
   @media screen and (max-width:700px) {
     .home{
@@ -134,5 +141,16 @@ margin-left: 1rem;
       height: 80px;
      }
     
+  }
+
+  .about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #e6f99d; 
+    margin: 2rem 1rem;
+    padding:3rem;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
   }
 

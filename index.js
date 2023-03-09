@@ -12,7 +12,7 @@ const App = ()=>{
 
              <div className='links'>
                 <a href="#home">HOME</a>
-                <a href="home">ABOUT</a>
+                <a href="#about">ABOUT</a>
                 <a href="home">SKILLS</a>
                 <a href="home">CONTACT</a>
              </div>
@@ -32,12 +32,24 @@ const App = ()=>{
                </div>
               </div>
 
-              <div className='home_img '>        
-              <img src='./assets/dev.png' alt='logo'/>     
+              <div className='home_quotes'>  
+              <h3>Quotes</h3>      
+              <p>“Before software can be reusable it first has to be usable.”</p>  
+              <p>“ Code is like humor. When you have to explain it, its bad.” </p> 
+              <p>“Fix the cause, not the symptom.”</p> 
+              <p>“Simplicity is the soul of efficiency.”</p>   
               </div>
             
+ </div>
 
-
+ <div className="about" id='about'>
+                         <h3>About Me</h3>
+                    <p>I've been working as a web developer for a few years now, 
+                        and I'm passionate about everything that goes into making websites work well and look beautiful. 
+                        The web is my passion because it's where I can find the most exciting projects to work on. 
+                        It's also where I get to express my creativity in ways that are hard to find elsewhere.</p>
+            
+                        <p>My name is Ahmed Avdihodzic, from Bosnia. I have background in Electrical Engineering</p>
  </div>
 
             
