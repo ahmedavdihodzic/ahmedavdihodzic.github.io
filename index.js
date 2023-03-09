@@ -7,7 +7,7 @@ const App = ()=>{
 
             <div className='logo'>
              <img src='./assets/logo3.png' alt='logo'/>
-             <h3>Developer</h3>
+             <h3>&lt;Welcome&gt;</h3>
              </div>
 
              <div className='links'>
@@ -33,9 +33,7 @@ const App = ()=>{
               </div>
 
               <div className='home_img '>        
-               <p>&lt;dev /&gt;</p> 
-               <p>&lt;dev /&gt;</p>    
-               <p>&lt;dev /&gt;</p>            
+              <img src='./assets/dev.png' alt='logo'/>     
               </div>
             
 

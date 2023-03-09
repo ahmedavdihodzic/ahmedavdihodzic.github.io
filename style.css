@@ -22,9 +22,9 @@
     height: 70px;
 }
 .logo h3 {
-font-size: 30px;
+font-size: 16px;
 font-family: monospace;
-color: #B10DC9;
+color: #c62828;
 font-weight: 800;
 margin-left: 1rem;
 }
@@ -34,16 +34,17 @@ margin-left: 1rem;
     flex-direction: row;
     justify-content:flex-end;
     align-items: center;
-    font-size: 26px;
+    font-size: 12px;
 }
+.links a{
+  color:#c62828;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  margin:0 1rem;
+  
 
-a {
-    text-decoration: none !important;
-    font-family: monospace;
-    font-weight: 800;
-    color: #B10DC9;
-    margin: 1rem;
-  }
+}
 
   @media screen and (max-width:700px) {
     .navbar{
@@ -52,7 +53,7 @@ a {
         margin: 0 2rem;
     } 
     .links{
-        font-size: 14px;
+        font-size: 10px;
         justify-content: center;
     }
     .home{
@@ -78,6 +79,7 @@ a {
     justify-content: center;
     align-items: center;
     padding: 3rem;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
   }
 
   .home_text h1{
@@ -94,47 +96,43 @@ a {
     margin:1rem 1rem;
     }
   .home_icons{
-    color:#00e676;
+    color:#f57c00;
     margin:1rem;
   }
   .myname{
     color:#f57c00;
   }
-  .home_img{
-    display: flex;
-    flex-direction: column;
-    flex: 3;
-    justify-content: center;
-    align-items: center;
-
-  }
-  .home_img p{
-   color: #00e676;
-   font-size: 50px;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  .home_img p:last-child{
-    color: #00e676;
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+     .home_img{
+     display: flex;
+     flex-direction: column;
+     flex: 3;
+     justify-content: center;
+     align-items: center;
+     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
    }
- 
+   .home_img img{
+    width: 300px;
+    height: 300px;
+    box-shadow:white;
+   }
    
   @media screen and (max-width:700px) {
     .home{
       display: flex;
       flex-direction: column;
+      margin:1rem 0;
     }
     .home_img p{
       font-size: 30px;
      }
-     .home_img p:last-child{   
-       font-size: 15px;
-      }
       .navbar{
         margin: 0;
     }
+    .home_img img{
+      width: 80px;
+      height: 80px;
+     }
     
   }
 
-  
