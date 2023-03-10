@@ -19,7 +19,6 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    cursor: pointer;
 }
 
 .logo img{
@@ -28,7 +27,8 @@
 }
 .logo h3 {
 font-size: 16px;
-font-family: monospace;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: 700;
 color:  #e6f99d; 
 margin-left: 1rem;
 }
@@ -47,7 +47,6 @@ margin-left: 1rem;
   font-weight: 700;
   margin:0 1rem;
   
-
 }
 
   @media screen and (max-width:700px) {
@@ -57,9 +56,10 @@ margin-left: 1rem;
         margin: 0 2rem;
     } 
     .links{
-        font-size: 12px;
+        font-size: 13px;
         justify-content: center;
         margin:1rem;
+        box-shadow: 0px 5px 10px 0px rgba(192, 17, 17, 0.5);
     }
     .home{
         display: flex;
@@ -71,6 +71,7 @@ margin-left: 1rem;
         justify-content: center;
         align-items: center;
     }  
+ 
   }
 
   .home{
@@ -151,7 +152,7 @@ margin-left: 1rem;
     align-items: center;
     color: #e6f99d; 
     margin: 2rem 1rem;
-    padding:3rem;
+    padding:0 10rem;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
   }
   .skills{
@@ -180,7 +181,8 @@ margin-left: 1rem;
   .skills_container:hover,
   .home_text:hover,
   .home_quotes:hover,
-  .about:hover{
+  .about:hover,
+  .contact:hover{
     box-shadow: 0px 5px 10px 0px rgba(192, 17, 17, 0.5);
   }
 
@@ -189,9 +191,44 @@ margin-left: 1rem;
       display: flex;
       flex-direction: column;
     }
+    .about{
+      padding:1rem;
+    }
+    .skills_container{
+      padding: 0 0;
+      padding: 0 5rem;
+    }
   }
   .home_quotes h3 img{
     width: 50px;
     height: 50px;
 
+  }
+  .about h3 img{
+    width: 40px;
+    height: 40px;
+    margin-left: 1rem;
+  }
+  .skills_container p img {
+    margin-right: 1rem;
+  }
+  .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #e6f99d;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    margin:1rem;
+    padding: 5 0rem;
+  }
+  
+  .contact p img{
+    width: 20px;
+    height: 20px;
+    margin-right: 1rem;
+  }
+  .contact h3 img{
+    width: 40px;
+    height: 40px;
   }
