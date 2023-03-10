@@ -13,7 +13,7 @@ const App = ()=>{
              <div className='links'>
                 <a href="#home">HOME</a>
                 <a href="#about">ABOUT</a>
-                <a href="home">SKILLS</a>
+                <a href="#skills">SKILLS</a>
                 <a href="home">CONTACT</a>
              </div>
 
@@ -33,7 +33,7 @@ const App = ()=>{
               </div>
 
               <div className='home_quotes'>  
-              <h3>Quotes</h3>      
+              <h3>Quotes<img src='./assets/idea.png' alt='idea'/></h3>      
               <p>“Before software can be reusable it first has to be usable.”</p>  
               <p>“ Code is like humor. When you have to explain it, its bad.” </p> 
               <p>“Fix the cause, not the symptom.”</p> 
@@ -51,6 +51,28 @@ const App = ()=>{
             
                         <p>My name is Ahmed Avdihodzic, from Bosnia. I have background in Electrical Engineering</p>
  </div>
+
+ <div className="skills" id='skills'>
+  
+  <div className='skills_container'>
+  <h3><p>Front</p> <i class="bi bi-file-richtext"></i></h3>  
+  <p className='skills_icon'><img src='./assets/html.png' alt='html'/>Html</p>
+  <p className='skills_icon'><img src='./assets/css.png' alt='css'/>CSS</p>
+  <p className='skills_icon'><img src='./assets/js.png' alt='js'/>JavaScript</p>
+  <p className='skills_icon'><img src='./assets/react.png' alt='react'/>React</p>
+    </div>
+  <div className='skills_container'>
+  <h3><p>Back</p> <i class="bi bi-file-earmark-text"></i>  </h3> 
+  <p className='skills_icon'><img src='./assets/nodejs.png' alt='nodejs'/>Node.js</p>
+  <p className='skills_icon'><img src='./assets/java.png' alt='java'/>Java</p> 
+    </div>
+  <div className='skills_container'>
+  <h3><p>DB</p> <i class="bi bi-database"></i></h3> 
+  <p className='skills_icon'><img src='./assets/mongo.png' alt='mongo'/>MongoDB</p>
+  <p className='skills_icon'><img src='./assets/sql.png' alt='slq'/>SQL</p>
+    </div>
+
+</div>
 
             
         </div>
