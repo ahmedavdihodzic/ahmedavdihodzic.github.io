@@ -26,7 +26,7 @@ const App = ()=>{
                 <h1>I'm <span className="myname">Ahmed</span></h1>
                 <p>I Am Web Developer</p>
                 <form action="https://en.wikipedia.org/wiki/Web_developer" method="get" target="_blank">
-                <button  type="submit" class="btn btn-outline-warning">About</button>
+                <button  type="submit" class="btn btn-dark">ABOUT</button>
                 </form>
                 <div className='home_links'>
                 <a href='https://ba.linkedin.com/in/ahmed-avdihod%C5%BEi%C4%87-523918141?trk=public_profile_samename-profile'><i class="bi bi-linkedin home_icons"></i></a>
@@ -55,19 +55,19 @@ const App = ()=>{
  <div className="skills" id='skills'>
   
   <div className='skills_container'>
-  <h3><p>Front</p> <i class="bi bi-file-richtext"></i></h3>  
+  <h3><p>FrontEnd</p> <i class="bi bi-file-richtext"></i></h3>  
   <p className='skills_icon'><img src='./assets/html.png' alt='html'/>Html</p>
   <p className='skills_icon'><img src='./assets/css.png' alt='css'/>CSS</p>
   <p className='skills_icon'><img src='./assets/js.png' alt='js'/>JavaScript</p>
   <p className='skills_icon'><img src='./assets/react.png' alt='react'/>React</p>
     </div>
   <div className='skills_container'>
-  <h3><p>Back</p> <i class="bi bi-file-earmark-text"></i>  </h3> 
+  <h3><p>BackEnd</p> <i class="bi bi-file-earmark-text"></i>  </h3> 
   <p className='skills_icon'><img src='./assets/nodejs.png' alt='nodejs'/>Node.js</p>
   <p className='skills_icon'><img src='./assets/java.png' alt='java'/>Java</p> 
     </div>
   <div className='skills_container'>
-  <h3><p>DB</p> <i class="bi bi-database"></i></h3> 
+  <h3><p>DataBase</p> <i class="bi bi-database"></i></h3> 
   <p className='skills_icon'><img src='./assets/mongo.png' alt='mongo'/>MongoDB</p>
   <p className='skills_icon'><img src='./assets/sql.png' alt='slq'/>SQL</p>
     </div>
